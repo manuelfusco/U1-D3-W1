@@ -1,0 +1,61 @@
+.logo {
+  margin: 2px;
+  text-align: center;
+}
+.logo > img {
+  width: 150px;
+}
+#nav-element {
+  text-align: center;
+  background-color: #fdfbf1;
+  border-top: 5px #f9b300;
+  border: 5px;
+  padding: 5px;
+}
+
+#nav-element > a {
+  text-decoration: none;
+  color: green;
+  text-align: center;
+  font-size: smaller;
+}
+
+#main-container {
+  margin: 50px 200px;
+  line-height: 30px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.promotion {
+  text-align: justify;
+}
+div.img {
+  display: flex;
+  justify-content: center;
+}
+#product {
+  width: 500px;
+}
+figcaption {
+  text-align: center;
+  margin: 10px;
+  color: grey;
+}
+#feature {
+  margin: 50px;
+}
+#feature > p {
+  line-height: 8px;
+  border-color: gray;
+  border-right: 2px;
+}
+#in {
+  display: block;
+  color: orange;
+}
+.feature p #in a {
+  color: black;
+}
