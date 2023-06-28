@@ -1,11 +1,8 @@
-body {
-}
 .logo {
-  margin: 2px;
   text-align: center;
 }
 .logo > img {
-  width: 150px;
+  width: 20vw;
 }
 #nav-element {
   text-align: center;
@@ -19,11 +16,12 @@ body {
   text-decoration: none;
   color: green;
   text-align: center;
-  font-size: smaller;
+  font-size: 10px;
 }
 
 #main-container {
-  padding: 4vh;
+  width: 50%;
+  margin-inline: 25%;
   line-height: 30px;
 }
 
@@ -31,15 +29,12 @@ h1 {
   text-align: center;
 }
 
-.promotion {
-  text-align: justify;
-}
 div.img {
   display: flex;
   justify-content: center;
 }
 #product {
-  width: 500px;
+  width: 100vh;
 }
 figcaption {
   text-align: center;
